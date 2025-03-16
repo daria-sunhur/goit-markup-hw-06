@@ -51,7 +51,7 @@ body {
 /* Hero */
 .hero {
     background-color: #2e2f42;
-    ;
+    padding: 100px 0;
 }
 
 .hero-title {
@@ -61,19 +61,16 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-}
-.hero-order-text {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-}
-.hero btn {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
+    margin-bottom: 20px;
 }
 
+.hero .btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #4d5ae5;
+    border: none;
+}
 /* Hero */
 
 /* Features */
