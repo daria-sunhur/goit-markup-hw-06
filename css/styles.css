@@ -1,7 +1,5 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: #2e2f42;
-    /* Домінантний колір тексту */
 }
 
 /* Header */
@@ -18,7 +16,9 @@ body {
 
 .header-logo-color {
     color: #4d5ae5;
+    color: #2e2f42;;
 }
+
 
 .header-menu-link {
     font-weight: 500;
@@ -36,7 +36,7 @@ body {
     color: #434455;
 }
 
-d .address-menu-tel {
+.address-menu-tel {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -69,13 +69,28 @@ d .address-menu-tel {
 }
 
 /* Hero */
+.hero {
+background-color: #2e2f42;;
+}
+.hero-title {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+}
+.hero btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+background: #4d5ae5;
+}
+/* Hero */
 
 /* Features */
-.features {}
-
-.features-list {}
-
-.features-item {}
 
 .features-subtitle {
     font-weight: 500;
@@ -109,12 +124,6 @@ d .address-menu-tel {
     color: #2e2f42;
 }
 
-.team-list {}
-
-.team-item {}
-
-.team-image {}
-
 .team-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -136,7 +145,6 @@ d .address-menu-tel {
 /* Team */
 
 /* Our Postfolio */
-.portfolio {}
 
 .portfolio-title {
     font-weight: 700;
@@ -146,12 +154,6 @@ d .address-menu-tel {
     text-align: center;
     color: #2e2f42
 }
-
-.portfolio-list {}
-
-.potfolio-item {}
-
-.portfolio-image {}
 
 .portfolio-subtitle {
     font-weight: 500;
@@ -171,10 +173,26 @@ d .address-menu-tel {
 
 /* Portfolio */
 
-/* Basement */
-.basement {}
+.team-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
 
-.basement-logo {}
+.team-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+}
+/* Team */
+
+/* Basement */
 
 .basement-text {
     font-weight: 400;
@@ -183,3 +201,4 @@ d .address-menu-tel {
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
+
