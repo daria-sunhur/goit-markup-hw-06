@@ -176,35 +176,34 @@ body {
 }
 /* Team */
 
-/* Basement */
 
+/* Basement */
 .basement {
     background: #2e2f42;
+    padding: 20px;
+    text-align: center;
 }
 
 .basement-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #f4f4fd
+    color: #f4f4fd;
+    margin-bottom: 10px;
 }
+
 .basement-logo-color {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #4d5ae5;
 }
+
 .basement-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    text-align: center;
 }
-
