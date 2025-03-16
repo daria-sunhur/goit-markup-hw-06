@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color:#FFFFFF;
 }
 
 /* Header */
@@ -59,9 +61,7 @@ body {
 /* Hero */
 .hero {
     background-color: #2e2f42;
-    padding: 100px 0;
     justify-content: center;
-    align-items: center;
 }
 
 .hero-title {
@@ -76,13 +76,11 @@ body {
 
 .hero .btn {
     font-weight: 500;
-    padding: 15px 30px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
-    border: none;
     cursor: pointer;
 }
  .hero .btn:hover {
@@ -128,6 +126,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize
 }
 
 .team-subtitle {
@@ -149,11 +148,7 @@ body {
 }
 .team-item {
     background-color: #FFFFFF;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 16px;
     text-align: center;
-    width: 264px;
 }
 .team-subtitle {
     font-weight: 500;
@@ -210,9 +205,6 @@ body {
 /* Basement */
 .basement {
     background: #2e2f42;
-    padding: 20px;
-    display: flex;
-    align-items: center;
 }
 
 .basement-logo {
@@ -225,7 +217,6 @@ body {
     color: #4d5ae5;
     margin-bottom: 10px;
     text-align: left;
-    flex-grow: 1;
 }
 
 .basement-logo-color {
