@@ -75,12 +75,25 @@ body {
 }
 
 .hero .btn {
+    font-weight: 500;
     padding: 15px 30px;
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
     border: none;
+    cursor: pointer;
 }
+ .hero .btn:hover {
+     background-color: #404bbf;
+ }
+ .hero .btn:focus {
+     background-color: #404bbf;
+ }
+ .hero .btn {
+     cursor: pointer;
+ }
 /* Hero */
 
 /* Features */
@@ -134,7 +147,31 @@ body {
     text-align: center;
     color: #434455;
 }
+.team-item {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: center;
+    width: 264px;
+}
+.team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
 
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
 /* Team */
 
 /* Our Postfolio */
@@ -146,6 +183,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42
+    text-transform: capitalize;
 }
 
 .portfolio-subtitle {
@@ -163,28 +201,11 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
+.portfolio-image {
+    width: 360px;
+}
 
 /* Portfolio */
-
-.team-subtitle {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
-}
-
-.team-text {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #434455;
-}
-/* Team */
-
 
 /* Basement */
 .basement {
@@ -197,18 +218,18 @@ body {
 .basement-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 1.5;
-    letter-spacing: 0.05em;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;
     margin-bottom: 10px;
     text-align: left;
     flex-grow: 1;
 }
 
 .basement-logo-color {
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
 
 .basement-text {
