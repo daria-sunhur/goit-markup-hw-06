@@ -52,6 +52,8 @@ body {
 .hero {
     background-color: #2e2f42;
     padding: 100px 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-title {
@@ -204,5 +206,5 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    text-align: center;
+    text-align: left;
 }
