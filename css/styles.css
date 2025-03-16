@@ -182,7 +182,7 @@ body {
 .basement {
     background: #2e2f42;
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .basement-logo {
@@ -206,5 +206,4 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    text-align: left;
 }
