@@ -182,7 +182,8 @@ body {
 .basement {
     background: #2e2f42;
     padding: 20px;
-    text-align: left;
+    display: flex;
+    align-items: center;
 }
 
 .basement-logo {
@@ -195,6 +196,7 @@ body {
     color: #f4f4fd;
     margin-bottom: 10px;
     text-align: left;
+    flex-grow: 1;
 }
 
 .basement-logo-color {
