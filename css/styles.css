@@ -16,12 +16,6 @@ body {
 }
 
 .header-logo-color {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #4d5ae5;
 }
 
@@ -33,12 +27,12 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.header-menu-item .header-menu-link:hover {
+.header-menu-item .header-menu-link:hover,
+.header-menu-item .header-menu-link:focus
+ {
     color: #404bbf;
 }
-.header-menu-item .header-menu-link:focus {
-    color: #404bbf;
-}
+
 .address-menu {
     font-style: normal;
 }
