@@ -11,12 +11,11 @@ body {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    color: #4d5ae5;
     text-transform: uppercase;
 }
 
-.header-logo-color {
-    color: #4d5ae5;
-}
+
 .header-logo-text {
      color: #2e2f42;
 }
@@ -34,6 +33,10 @@ body {
 .header-menu-item .header-menu-link:hover,
 .header-menu-item .header-menu-link:focus
  {
+    color: #404bbf;
+}
+.header-logo:hover,
+.header-logo:focus {
     color: #404bbf;
 }
 
