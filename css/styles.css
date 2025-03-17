@@ -43,20 +43,16 @@ body {
 .address-menu {
     font-style: normal;
 }
-.address-menu-mail {
+.address-menu-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-
-.address-menu-tel {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455
+.address-menu-text:hover,
+.address-menu-text:focus {
+    color: #404bbf;
 }
 
 /* Hero */
