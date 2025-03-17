@@ -12,13 +12,17 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
 }
 
 .header-logo-color {
     color: #4d5ae5;
 }
-
+.header-logo-text {
+     color: #2e2f42;
+}
+.header-menu-item {
+    color:#FFFFFF;
+}
 
 .header-menu-link {
     font-weight: 500;
@@ -62,6 +66,7 @@ body {
     font-weight: 700;
     font-size: 56px;
     letter-spacing: 0.02em;
+    line-height: 1.07;
     text-align: center;
     color: #fff;
 }
@@ -114,7 +119,7 @@ body {
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.5;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
