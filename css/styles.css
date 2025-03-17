@@ -30,8 +30,8 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.header-menu-item .header-menu-link:hover,
-.header-menu-item .header-menu-link:focus
+.header-menu-link:hover,
+.header-menu-link:focus
  {
     color: #404bbf;
 }
@@ -215,7 +215,7 @@ body {
     text-align: left;
 }
 
-.basement-logo-color {
+.basement-logo-text {
     color: #f4f4fd;
 }
 
