@@ -85,11 +85,11 @@ body {
 }
  .hero .btn:hover {
      background-color: #404bbf;
-     color: #fff;
+     color: #404bbf;;
  }
  .hero .btn:focus {
      background-color: #404bbf;
-     color: #fff;
+     color: #404bbf;
  }
 /* Hero */
 
