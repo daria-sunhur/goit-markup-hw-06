@@ -67,11 +67,9 @@ body {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    margin-bottom: 20px;
 }
 
 .hero .btn {
@@ -122,7 +120,7 @@ body {
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -196,9 +194,6 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.portfolio-image {
-    width: 360px;
-}
 
 /* Portfolio */
 
@@ -215,7 +210,6 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-bottom: 10px;
     text-align: left;
 }
 
