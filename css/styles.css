@@ -52,12 +52,20 @@ img {
     justify-content: center;
     padding: 0 15px;
 }
+.header-container {
+    display: flex;
+    align-items: center;
+}
 .header-logo-text {
      color: #2e2f42;
 }
 .header-navigation {
     display: flex;
     align-items: center;
+ }
+ .header-menu-list {
+    display: flex;
+    gap: 40px;
  }
 .header-menu-item {
     color:#FFFFFF;
@@ -116,18 +124,18 @@ img {
     line-height: 1.07;
     text-align: center;
     color: #FFFFFF;
-    margin: auto;
+    margin: 0 auto;
     max-width: 496px;
 }
-
-.hero .btn {
+.button {
     display: block;
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
-    background-color: #4d5ae5;
+    color: #ffffff;
     cursor: pointer;
     border-radius: 4px;
     border: none;
@@ -137,6 +145,7 @@ img {
     width: 169px;
     height: 56px;
 }
+
  .hero .btn:hover {
      background-color: #404bbf;
      color: #404bbf;
@@ -148,43 +157,50 @@ img {
 /* Hero */
 
 /* Features */
-
+.features {
+padding-top: 120px;
+padding-bottom: 120px;
+}
+.features-list {
+display: flex;
+gap: 24px;
+}
+.features-item {
+width: calc((100% - 72px) / 4);
+}
 .features-subtitle {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    padding-top: 120px;
-    padding-bottom: 120px;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .features-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    display: flex;
-    gap: 24px;
-    width: calc((100% - 72px) / 4);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
 
 /* Features */
 
 /* Team */
 .team {
-    background: #f4f4fd;
+background-color: #F4F4FD;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 
 .team-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    text-transform: capitalize
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2e2f42;
+margin-bottom: 72px;
 }
 .team-list{
     display: flex;
@@ -215,17 +231,20 @@ img {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
+.card-title {
+    padding: 32px 0;
+}
 .team-subtitle {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
+text-align: center;
+margin-bottom: 8px;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
 }
 
 .team-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -235,6 +254,11 @@ img {
 /* Team */
 
 /* Our Postfolio */
+
+.portfolio {
+padding-top: 120px;
+padding-bottom: 120px;
+}
 
 .portfolio-title {
     font-weight: 700;
