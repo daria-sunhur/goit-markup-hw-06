@@ -21,6 +21,7 @@ h6 {
     letter-spacing: 0.03em;
     color: #4d5ae5;
     text-transform: uppercase;
+    margin-right: 76px
 }
 
 a {
@@ -43,6 +44,7 @@ img {
 }
 .header{
     border-bottom: 1px solid #e7e9fc;
+    display: flex;
 }
 .container {
     width: 1158px;
