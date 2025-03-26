@@ -128,7 +128,7 @@ img {
     margin: 0 auto;
     max-width: 496px;
 }
-.button {
+.button-hero-btn {
     display: block;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
@@ -158,11 +158,11 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
- .button:hover {
+ .button-hero-btn:hover {
      background-color: #404bbf;
      color: #404bbf;
  }
- .button:focus {
+ .button-hero-btn:focus {
      background-color: #404bbf;
      color: #404bbf;
  }
