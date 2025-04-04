@@ -345,7 +345,7 @@ color: #2e2f42;
 padding-top: 120px;
 padding-bottom: 120px;
 }
-.portfolio-content {
+.portfolio-item-picture-wrap {
     position: relative;
     overflow: hidden;
 }
@@ -356,17 +356,18 @@ padding-bottom: 120px;
     color: #434455;
 }
 .portfolio-item-text {
-        position: absolute;
-        top: 0;
-        background-color: #4d5ae5;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #f4f4fd;
-        padding: 40px 32px;
-        height: 100%;
-        transform: translateY(100%);
+    position: absolute;
+    top: 0;
+    background-color: #4d5ae5;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-title {
     font-weight: 700;
@@ -425,12 +426,12 @@ padding-bottom: 120px;
 /* Portfolio */
 
 /* Basement */
-.basement-logo {
+.footer-logo {
     display: inline-block;
     margin-bottom: 16px;
 }
-.basement-logo,
-.basement-logo-text {
+.footer-logo,
+.logo-part {
  line-height: 1.17;
  color: #f4f4fd;
 }
@@ -438,14 +439,14 @@ padding-bottom: 120px;
     background-color: #2e2f42;
     padding: 100px 0;
 }
-.container-basement {
+.footer-container {
     display: flex;
     align-items: baseline;
 }
 .text-block {
     margin-right: 120px;
 }
-.basement-text {
+.footer-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -465,12 +466,11 @@ padding-bottom: 120px;
     list-style: none;
 }
 .social-title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #fff;
-    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 0;
+    list-style: none;
 }
 .footer-socmedia-block-soclinks a.social-link {
     display: flex;
@@ -482,7 +482,7 @@ padding-bottom: 120px;
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-socmedia-block-soclinks:hover a.social-link,
-.footer-socmedia-block-soclinks:focus a.social-link {
+.footer-socmedia-block-soclinks:hover a.social-link:hover,
+.footer-socmedia-block-soclinks:focus a.social-link:focus {
     background-color: #31d0aa;
 }
