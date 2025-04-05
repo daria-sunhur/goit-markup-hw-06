@@ -284,9 +284,13 @@ margin-bottom: 72px;
             0 1px 1px 0 rgba(46, 47, 66, 0.16),
             0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-.card-title {
-    padding-top: 32px;
-    padding-bottom: 32px;
+.team-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.card-content {
+    padding: 32px 0;
     text-align: center;
 }
 .team-subtitle {
