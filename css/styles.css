@@ -466,9 +466,11 @@ padding-bottom: 120px;
 }
 .social-points {
     display: flex;
+    justify-content: center;
     gap: 24px;
-    list-style: none;
+    margin-top: 8px;
     padding: 0;
+    list-style: none;
 }
 .social-title {
     font-weight: 500;
