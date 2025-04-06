@@ -326,7 +326,9 @@ margin-bottom: 72px;
     height: 16px;
     fill: #f4f4fd;
 }
-
+.team-card-content-block-soclinks {
+    list-style: none;
+}
 .social-link:hover,
 .social-link:focus {
     background-color: #404bbf;
