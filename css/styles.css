@@ -478,8 +478,12 @@ padding-bottom: 120px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-top: 0;
     margin-bottom: 16px;
-    margin: 0;
+}
+.social-bullet {
+    display: flex;
+    gap: 16px;
 }
 .footer-socmedia-block-soclinks .social-link {
     display: flex;
