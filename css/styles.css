@@ -544,8 +544,7 @@ padding-bottom: 120px;
     min-width: 165px;
     height: 40px;
     background: #4d5ae5;
-    display: flex
-;
+    display: flex;
     align-items: center;
     font-weight: 500;
     font-size: 16px;
@@ -557,6 +556,7 @@ padding-bottom: 120px;
     padding-right: 24px;
     border: none;
     justify-content: center;
+    cursor: pointer;
 }
 .footer-btn-icon {
     fill: #fff;
