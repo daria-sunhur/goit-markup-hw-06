@@ -796,9 +796,16 @@ button, input, optgroup, select, textarea {
     border-color: #4D5AE5;
     outline: none;
 }
+.modal-close-btn:hover {
+    background-color: #404bbf;
+    border: none;
+}
 .modal-close-btn:hover .modal-close-icon,
 .modal-close-btn:focus .modal-close-icon {
   fill: #ffffff;
+}
+.modal-close-btn:hover .modal-close-icon {
+    fill: #ffffff; 
 }
 .input-wrapper:focus-within .modal-input-icon {
     fill: #4D5AE5;
@@ -806,3 +813,11 @@ button, input, optgroup, select, textarea {
   .checkbox-title {
     cursor: pointer;
   }
+  :root {
+    --accent-color: #404bbf; /* змінна для основного кольору */
+}
+input[type="checkbox"]:checked + .checkbox-title .checkbox-icon {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD; 
+}
