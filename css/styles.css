@@ -734,6 +734,7 @@ label {
     letter-spacing: 0.04em;
     color: #8e8f99;
     align-items: center;
+    cursor: pointer;
 }
 .checkbox-icon {
     display: inline-flex;
@@ -759,11 +760,6 @@ label {
     color: rgb(77, 90, 229);
     margin-left: 4px;
     text-decoration: underline;
-}
-.privacy-policy {
-    background-color: #404bbf; 
-    border: none;
-    fill: #F4F4FD; 
 }
  input[type="checkbox"]:checked + .checkbox-title .checkbox-icon {
     background-color: #404bbf; 
@@ -802,28 +798,12 @@ label {
     border-color: #4D5AE5;
     outline: none;
 }
-
-.modal-text-area:focus {
-    border-color: #4D5AE5;
-    outline: none;
-}
-.modal-close-btn:hover {
-    background-color: #404bbf;
-    border: none;
-}
 .modal-close-btn:hover .modal-close-icon,
 .modal-close-btn:focus .modal-close-icon {
   fill: #ffffff;
 }
-.modal-close-btn:hover .modal-close-icon {
-    fill: #ffffff; 
-}
 .input-wrapper:focus-within .modal-input-icon {
     fill: #4D5AE5;
   }
-  .checkbox-title {
-    cursor: pointer;
-  }
-:root {
-    --accent-color: #404bbf; /* змінна для основного кольору */
-}
+
+
