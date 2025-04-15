@@ -760,6 +760,11 @@ label {
     margin-left: 4px;
     text-decoration: underline;
 }
+.privacy-policy {
+    background-color: #404bbf; 
+    border: none;
+    fill: #F4F4FD; 
+}
  input[type="checkbox"]:checked + .checkbox-title .checkbox-icon {
     background-color: #404bbf; 
     border: none;
@@ -819,11 +824,6 @@ label {
   .checkbox-title {
     cursor: pointer;
   }
-  :root {
+:root {
     --accent-color: #404bbf; /* змінна для основного кольору */
-}
-input[type="checkbox"]:checked + .checkbox-title .checkbox-icon {
-    background-color: #404bbf;
-    border: none;
-    fill: #F4F4FD; 
 }
