@@ -808,6 +808,8 @@ label {
 .modal-close-btn:focus .modal-close-icon {
   fill: #ffffff;
 }
-
+.input-wrapper:focus-within .modal-input-icon {
+    fill: #4D5AE5;
+  }
 
 
