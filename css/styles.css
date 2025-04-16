@@ -808,8 +808,21 @@ label {
 .modal-close-btn:focus .modal-close-icon {
   fill: #ffffff;
 }
+.input-icon {
+    fill: #2E2F42; 
+    transition: fill 0.3s ease;
+    pointer-events: none;
+  }
 .input-wrapper:focus-within .modal-input-icon {
     fill: #4D5AE5;
   }
+#user-privacy:checked + label .checkbox-icon {
+    background-color: #404bbf;
+    border: none;
+}
+#user-privacy:checked + label .icon-checkbox {
+    fill: #F4F4FD;
+}
+
 
 
