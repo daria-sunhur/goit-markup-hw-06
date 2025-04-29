@@ -3,7 +3,6 @@ body {
     color: #434455;
     background-color:#FFFFFF;
     width: 100%;
-    min-width: 100%;
 }
 ul,
 ol {
@@ -160,12 +159,12 @@ img {
       margin-right: 76px;
     }
 }
-.adress-menu-list {
+.address-menu-list {
     flex-direction: row;
     align-items: center;
     gap: 40px;
   }
-.adress-menu-text {
+.address-menu-text {
     padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
@@ -374,14 +373,6 @@ color: #434455;
       padding-top: 120px;
       padding-bottom: 120px;
     }
-  }
-  .feature-list {
-    display: flex;
-    gap: 24px;
-  }
-
-  .feature-item {
-    flex-basis: calc((100% - 72px) / 4);
   }
 /* Features */
 
