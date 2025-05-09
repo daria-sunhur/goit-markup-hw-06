@@ -95,15 +95,16 @@ img {
  .header-logo .logo-part {
     color: #2e2f42;
 }
-.button-hero-btn {
+.burger-btn {
     padding: 0;
     border: none;
     background-color: transparent;
-}
-.feature-icon {
-        display: block;
-        fill: #2f2f37;
-}
+  }
+  
+  .burger-icon {
+    display: block;
+    fill: #2f2f37;
+  }
 @media screen and (min-width: 768px) {
     .button-hero-btn {
       display: none;
