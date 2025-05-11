@@ -87,10 +87,6 @@ img {
     align-items: center;
     margin-right: auto;
 }
-.header-menu-list,
-.adress-menu {
-        display: none;
-}
 
 .header-logo {
     padding: 24px 0;
@@ -166,7 +162,7 @@ img {
     border-radius: 2px;
     background-color: #404bbf;
   }
-  .adress-menu {
+  .address-menu {
     font-style: normal;
     display: block;
   }
