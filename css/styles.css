@@ -1426,6 +1426,36 @@ label {
   .modal-close-icon {
     fill: #f4f4fd;
   }
+  @media screen and (max-width: 767px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 72px;
+    }
+  
+    .text-block,
+    .social-head,
+    .footer-sub {
+      margin: 0;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .subscribe-form {
+      flex-direction: column;
+      gap: 16px;
+    }
+  
+    .footer-input {
+      width: 100%;
+      max-width: 288px;
+    }
+  
+    .footer-btn {
+      width: 165px;
+    }
+  }
   /* .mobile-menu-close {
     position: absolute;
     top: 24px;
