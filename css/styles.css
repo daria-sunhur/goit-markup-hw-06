@@ -106,17 +106,13 @@ img {
  .header-logo .logo-part {
     color: #2e2f42;
 }
+
+
 .header-menu-list {
-    display: none;
-}
-.address-menu {
-        display: none;
-}
-/* .header-menu-list {
     display: flex;
     align-items: center;
     gap: 40px;
-} */
+}
 .burger-btn {
     padding: 0;
     border: none;
@@ -128,10 +124,10 @@ img {
 .burger-btn:focus {
     color: #2E2F42;
 }
-  /* .burger-icon {
+  .burger-icon {
     display: block;
     fill: #2f2f37;
-  } */
+  }
 
 
 .header-logo {
@@ -202,6 +198,12 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+@media screen and (max-width: 767px) {
+    .header-menu-list,
+    .address-menu {
+      display: none;
+    }
+  }
 
 /* Hero */
 /* section 1 */
