@@ -415,6 +415,12 @@ flex-basis: calc((100% - 24px) / 2);
       border: 1px solid #8e8f99;
  }
   }
+  @media screen and (max-width: 767px) {
+    .feature-icon-wrapper,
+    .feature-icon {
+      display: none;
+    }
+  }
 /* Features */
 
 /* Team */
