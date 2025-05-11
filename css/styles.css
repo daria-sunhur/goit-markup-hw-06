@@ -725,6 +725,12 @@ padding-bottom: 96px;
     background-color: #31d0aa;
     cursor: pointer;
   }
+  .page-footer .social-icon-large {
+    fill: #ffffff;
+  }
+  .footer-socmedia-block-soclinks .social-icon-large {
+    fill: #ffffff;
+  }
 .footer-soc-link-text {
     display: flex;
     flex-direction: column;
