@@ -1456,6 +1456,23 @@ label {
       width: 165px;
     }
   }
+  .features-list {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+  }
+  
+  @media screen and (min-width: 1158px) {
+    .features-list {
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 24px;
+    }
+  
+    .features-item {
+      flex-basis: calc((100% - 72px) / 4);
+    }
+  }
   /* .mobile-menu-close {
     position: absolute;
     top: 24px;
