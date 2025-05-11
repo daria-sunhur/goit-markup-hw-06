@@ -378,7 +378,7 @@ flex-basis: calc((100% - 24px) / 2);
       padding-bottom: 120px;
     }
   }
-  .feature-list {
+  .features-list {
     display: flex;
     gap: 24px;
   }
@@ -431,6 +431,17 @@ flex-basis: calc((100% - 24px) / 2);
   
 .features-item {
       flex-basis: calc((100% - 72px) / 4); /* 4 елементи в ряд */
+    }
+  }
+  @media screen and (min-width: 1158px) {
+    .features-list {
+      display: flex;
+      gap: 24px;
+      justify-content: space-between;
+    }
+  
+.features-item {
+      flex-basis: calc((100% - 72px) / 4);
     }
   }
 /* Features */
