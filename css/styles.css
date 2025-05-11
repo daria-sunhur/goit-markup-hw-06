@@ -421,6 +421,18 @@ flex-basis: calc((100% - 24px) / 2);
       display: none;
     }
   }
+  @media screen and (min-width: 1158px) {
+    .features-list {
+      display: flex;
+      gap: 24px;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+    }
+  
+.features-item {
+      flex-basis: calc((100% - 72px) / 4); /* 4 елементи в ряд */
+    }
+  }
 /* Features */
 
 /* Team */
@@ -664,8 +676,10 @@ padding-bottom: 96px;
       max-width: 496px;
     }
 .portfolio-list {
+        display: flex;
+        flex-wrap: wrap;
         gap: 48px 24px;
-      }
+}
     
 .portfolio-item {
         background: #fff;
